@@ -5,16 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="645a6e09-f214-425d-bf7e-1d07a2b99cdb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/applications/account/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/product/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/spam/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/spam/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/spam/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/tasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account_project" beforeDir="false" afterPath="$PROJECT_DIR$/account_project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/account/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/account/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/applications/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/account/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/account/send_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/account/send_mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/account/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/account/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/account/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/product/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/product/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/product/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/product/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/product/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/product/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,11 +53,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "/home/hello/Desktop/makers/Django/projeck_sixth"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;/home/hello/Desktop/makers/Django/project_seventh&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="project_seventh" />
