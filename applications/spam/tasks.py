@@ -7,14 +7,31 @@ from applications.spam.models import Spam
 from main_app.celery import app
 
 
-
 @app.task
 def spam_message_user():
-    email = Spam.objects.all()
-    for i in email:
-        send_mail(
-            'Привет мы из py24',
-            'Это спам',
-            'musabekova.amina13@gmail.com',  # от кого
-            [i.email]  # кому
-        )
+    emails = Spam.objects.all()
+    # 3 вариант
+    send_mail(
+        'Привет мы из py24',
+        'Это спам',
+        'musabekova.amina13@gmail.com',  # от кого
+        [i.email for i in emails])
+
+    # 2 вариант
+
+    # list_email = [i.email for i in emails]
+    # send_mail(
+    #     'Привет мы из py24',
+    #     'Это спам',
+    #     'musabekova.amina13@gmail.com',  # от кого
+    #     list_email  # кому
+    # )
+
+    # 1 вариант
+    # for i in emails:
+    #     send_mail(
+    #         'Привет мы из py24',
+    #         'Это спам',
+    #         'musabekova.amina13@gmail.com',  # от кого
+    #         [i.email]  # кому
+    #     )
